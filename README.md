@@ -67,6 +67,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+  <p>Ik heb deze op papier geschetst maar dat schrift is tijdelijk bij een klasgenoot thuis. Hiervan kan ik de schetsen meenemen naar het gesprek</p>
 
   ### de hele pagina: 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
@@ -79,28 +80,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 </details>
 
-
-
-
-
 ## Voortgang 1 (week 2)
 
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik was laat met het kiezen van een website, gelukkig had ik binnen de les snel een keuze gemaakt. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Mijn feedback = Vebeter je schetsen van je html layout en zorg ervoor dat de h2,h3 enx goed en symantisch staan.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -113,27 +104,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
-
-
 ## Voortgang 2 (week 3)
 
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik heb een begin aan mijn html gemaakt, hierbij heb ik vooral mijn focus op de nav gelegd. Ik heb geleerd hoe je informatie uit de netwerk van je website kan halen.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+ Mijn feedback: Ik kreeg een paar tips over mijn pagina, vooral over bepaalde dingen die moeilijk te coderen zijn in javascript. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -155,7 +137,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+ Ik heb kleurencontrast gecheckt, dat was goed. Ik moest nog veel alt en aria labels toevoegen zodat slechtzienden mee kunnen komen. 
 
 </details>
 
@@ -169,18 +151,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+ Ik heb veel html en css geschreven en ook een begin gemaakt aan mijn tweede pagina. Natuurlijk kwam ik vast te zitten bij een aantal punten maar gelukkig konden mijn klasgenoten mij verder helpen.
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  
+  Feedback:
+Ik had een aantal vragen gesteld aan de studentassistenden overn mijn html, voornamelijk ging het over z-index en het gebruik van border-radius.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -191,9 +167,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - ...
 
 </details>
-
-
-
 
 
 ## Eindgesprek (week 5)
@@ -226,12 +199,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. bron 1 https://ianrmedia.unl.edu/resources/rounded-corners-images
+			https://developer.mozilla.org/en-US/docs/Web/CSS/display over display flex en block.
+  2. bron 2 	Over filmpje:
+			https://www.w3schools.com/tags/att_video_loop.asp
+			https://stackoverflow.com/questions/10377453/play-infinitely-looping-video-on-load-in-html5
+  3. bron 3 Text-align
+			https://stackoverflow.com/questions/44081617/how-to-align-li-text-left-and-set-horizontal-navigation-under-h3-tag
+  4. bron 4 https://www.shecodes.io/athena/18626-how-to-apply-a-gif-background-to-a-website-using-html-and-css		
+  5. bron 5: Border none voor menu span in nav:
+			https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit		
+  6. bron 6 Hulp van Kim, ananda en Thijs gekregen:
+			https://codepen.io/Kimdekker/pen/poqxRVV
+			https://codepen.io/Kimdekker/pen/XWozvdO
+    
 
 </details>
