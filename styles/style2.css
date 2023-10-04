@@ -13,16 +13,16 @@ h2{
 
 h3{
     font-family: Trickster4;
-    font-size: 11,125em;
+    font-size: 1.5em;
     font-weight: 500;
-   letter-spacing: 0.8px;
-   line-height: 1.5em;
-   text-transform: none;
-   margin-left: 1.5em;
-   margin-top: 1.5em;
-   margin-bottom: 0.5em;
-   text-align: left;
-   align-items: start;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    text-transform: none;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    align-items: start;
 }
 
 h4, h6{
@@ -52,7 +52,8 @@ p{
     text-size-adjust: 100%;
     width: 70%;
     margin-left: 2em;
-    margin-bottom: 4em;;
+    margin-bottom: 4em;
+    text-align: start;
 }
 
 main ul li {
@@ -69,7 +70,7 @@ main span{
     position: absolute;
     margin-right: 0em;
     margin-left: 3.5em;
-    width: 100vw;
+    width: 80vw;
     height: .1em;
     background-color:var(--border-color);
     transition: .3s;  

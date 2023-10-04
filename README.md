@@ -180,20 +180,16 @@ Ik had een aantal vragen gesteld aan de studentassistenden overn mijn html, voor
  <img src="./images/Screenshot 2023-10-04 at 17.04.47.png" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Ik heb ontzettend veel geleerd, ten eerste heb ik  mezelf overschat. Internet standaarden ging erg goed en daardoor had ik de verkeerde verwachtingen gekregen. Ik moest wennen aan de nieuwe concepten en regels maar ik vond het leuk om mijn webstie te stijlen en te zien dat het uiteindelijk toch op zijn pootjes terecht komt.
+  Ik heb ontzettend veel geleerd, ten eerste heb ik  mezelf overschat. Internet standaarden ging erg goed en daardoor had ik de verkeerde verwachtingen gekregen. Ik moest wennen aan de nieuwe concepten en regels maar ik vond het leuk om mijn webstie te stijlen en te zien dat het uiteindelijk toch op zijn pootjes terecht komt. Ik ben trots op de layout van mijn tweede pagina omdat het er heel goed en netjes uitziet.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  <img src="./images/Screenshot 2023-10-04 at 17.04.47.png.png" width="375px" alt="top">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Mijn carroussel heeft knopjes die in de echte website goed geannimeerd zijn, daar ben ik helaas niet aan toe gekomen ook al had ik daar wel zin in. De knoppen zijn nu moeilijk zichtbaar en geven geen feed-forward op deze manier. Verder zijn er andere annimaties die mij leuk leken om te leren maken maar daar was ook de tijd niet voor.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="./images/Screenshot 2023-10-04 at 17.31.41.png" width="375px" alt="bummer">
+
 </details>
-
-
-
-
 
 ## Bronnenlijst
 
@@ -214,5 +210,4 @@ Ik had een aantal vragen gesteld aan de studentassistenden overn mijn html, voor
 			https://codepen.io/Kimdekker/pen/poqxRVV
 			https://codepen.io/Kimdekker/pen/XWozvdO
     
-
 </details>

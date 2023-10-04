@@ -87,13 +87,6 @@ header>a {
     margin:0.5em;
 }
 
-/* middelste stipje groter maken?
-
-.home div:nth-of-type(2) ul li a:nth-child(2) {
-    font-size: 3em;
-    color: red;
-} */
-
 .home section video {
     object-fit: cover;
     width: 100vw;
@@ -104,7 +97,7 @@ header>a {
 
 /* carousel shit */
 
-.carousel h4, h3{
+.carousel h4, .carousel h3{
     text-align: center; 
 }
 
