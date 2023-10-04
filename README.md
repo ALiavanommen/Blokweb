@@ -175,11 +175,14 @@ Ik had een aantal vragen gesteld aan de studentassistenden overn mijn html, voor
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="./images/Screenshot 2023-10-04 at 17.04.00.png" width="375px" alt="uitomst opdracht 1">
+  <img src="./images/Screenshot 2023-10-04 at 17.04.25.png" width="375px" alt="uitomst opdracht 1">
+ <img src="./images/Screenshot 2023-10-04 at 17.04.47.png" width="375px" alt="uitomst opdracht 1">
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb ontzettend veel geleerd, ten eerste heb ik  mezelf overschat. Internet standaarden ging erg goed en daardoor had ik de verkeerde verwachtingen gekregen. Ik 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
