@@ -209,5 +209,21 @@ Ik had een aantal vragen gesteld aan de studentassistenden overn mijn html, voor
   6. bron 6 Hulp van Kim, ananda en Thijs gekregen:
 			https://codepen.io/Kimdekker/pen/poqxRVV
 			https://codepen.io/Kimdekker/pen/XWozvdO
+  7. Bron 7: Hulp van David, voornamelijk over carousel maar soms ook andere onderwerpen.
+  8. Bron 8: Chat GBT over hoe ik een lijn naast een svg kan zetten:
+
+    .home ul li div::after{
+        content: "";
+        display: block;
+        height: 1px; /* Set the height of the line */
+        background-color: var(--border-color); /* Set the background color of the line */
+        width: 100%; /* Make the line span the entire width of the page */
+        margin-top: 28px; /* Adjust the margin as needed */
+    }
+
+ 9. bron 9: Flexfroggy om flexbox elementen te oefenen en de code te gebruiken.
+
+
+  
     
 </details>

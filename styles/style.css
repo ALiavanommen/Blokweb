@@ -37,8 +37,6 @@
     --link-background-color: white;
     --border-color: hsla(0, 0%, 100%, 0.1);
     --color-text-pagina2:rgb(160, 161, 175);
-
-
     --link-color:white;
     --link-visited-color:rgb(160, 161, 175);
     --link-background-color:rgb(58, 68, 92);
@@ -56,7 +54,7 @@ a:visited {
   }
   
   a:focus-visible {
-    background:var(--link-background-color);
+    background:var(--link-color);
   }
   
   a:hover::before {
@@ -69,6 +67,24 @@ a:visited {
   }
   
 
+/* a met een lijntje eronder */
+li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-text);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
 /* styling: */
 
@@ -79,23 +95,26 @@ body {
 }
 
 .hidden{clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;}
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;}
 
 h1 {
     color: var(--color-text);
-    font-family: Trickster;
-    font-size: 3.75em;
+    font-family: Trickster4, sans-serif;
+    font-size: 57px;
+    letter-spacing: -1.425px;
+    font-weight:600;
+    height: 91.1953px;
 }
 
 h2 {
     font-family: Trickster4;
     color: transparent;
-    -webkit-text-stroke: 2px var(--color-text);
+    -webkit-text-stroke: 1px var(--color-text);
     font-size: 3.75em;
 }
 
@@ -103,29 +122,29 @@ h3{
     font-family: Trickster4;
     font-size: 0.688em;
     font-weight: 400;
-   letter-spacing: 4px;
-   line-height: 1.25em;
-   text-size-adjust: 100%;
-   text-transform: uppercase;
-   margin-left: 3em;
-   margin-top: 1.5em;
-   margin-bottom: 1.5em;
-   text-align: left;
-   align-items: start;
-
+    letter-spacing: 4px;
+    line-height: 1.25em;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    margin-left: 3em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: left;
+    align-items: start;
 }
+
 h4 {
- font-family: Trickster4;
- font-size: 2.3em;
- line-height: 2.6em;
- font-weight: 600;
- letter-spacing: -0.96px;
- display: block;
-text-align: left;
-margin-left: 1em;
-margin-bottom: 1em;
-margin-top: 1em;
- margin-bottom: 0px;
+    font-family: Trickster4;
+    font-size: 2.3em;
+    line-height: 2.6em;
+    font-weight: 600;
+    letter-spacing: -0.96px;
+    display: block;
+    text-align: left;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 0px;
 }
 
 h5 {
@@ -166,56 +185,20 @@ a {
     margin-left: 3em;
     display: inline-block;
     position: relative;
-
     } 
     
-     main div ul li a::after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        transform: scaleX(0);
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        background-color: var(--color-text);
-        transform-origin: bottom right;
-        transition: transform 0.25s ease-out;
-      }
-
-
-      section:nth-of-type(4) a::after{
-        content: '';
-        position: absolute;
-        width: 100%;
-        transform: scaleX(0);
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        background-color: var(--color-text);
-        transform-origin: bottom right;
-        transition: transform 0.25s ease-out;
-      }
-
-      a:hover::after {
-        transform: scaleX(1);
-        transform-origin: bottom left;
-      }
-
-    nav a {
-        display: flex;
-        align-items: center;
-        column-gap: .25em;
-        padding-bottom: 0.5em;
-    
-        font-family: Trickster4;
-        font: 1.875em;
-        font-weight: 600;
-        letter-spacing: -0.9px;
-        line-height: 3.1em;
-        color: transparent;
-        -webkit-text-stroke: 1px var(--color-text);;
-        text-transform:none;
-    }
+main div ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-text);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
 
 img {
     max-width: 100%;
@@ -228,7 +211,6 @@ li {
     justify-content: center;
 }
 
-
 li a {
     font-family: Trickster4;
     text-decoration: none;
@@ -240,35 +222,7 @@ li a {
     z-index:2;
 }
 
-hr {
-    border-color: hsla(0, 0%, 100%, 0.1);
-    margin-top: 5em;
-    margin-bottom: 5em;
-}
-
-section:nth-of-type(2){
-    display: flex;
-    flex-direction: column;
-}
-
-section:nth-of-type(2) li{
-    background-color: transparent;
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--border-color);
-    padding-top: 13em;
-    padding-left: 2em;
-    padding-bottom: 2em;
-    margin: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-section:nth-of-type(2) li h5{
-    padding-left: 0.5em;
-    padding-bottom: 0.5em;
-}
+/* header en buttons*/
 
 header {
     position: fixed;
@@ -308,6 +262,7 @@ header>button {
     margin-bottom: 1em;
     z-index: 1;
     border:none;
+    z-index:100;
 
 }
 
@@ -315,6 +270,8 @@ header img {
     background-color: transparent;
     height: auto;
 }
+
+/* Button 1 span, dus de lijntjes zelf! */
 
 header button span {
     position: absolute;
@@ -324,8 +281,6 @@ header button span {
     background-color:var(--color-text);
     transition: .3s;  
 }
-
-
 
 header button span:nth-of-type(1) {
     transform: translateY(-.3em);
@@ -347,18 +302,7 @@ header button.open span:nth-of-type(3) {
     opacity: 0;
 }
 
-/* nav {
-    position: absolute;
-    inset: 1em 1em 1em;
-} */
-
-
-nav button {
-    justify-self: end;
-    opacity: 0%;
-}
-
-nav {
+header nav {
     inset: 0;
     display: grid;
     align-content: center;
@@ -366,6 +310,7 @@ nav {
     translate: 0 -100%;
     transition: 2s;
     background-color:var(--color-background);
+    z-index:90;
 }
 
 nav.open {
@@ -393,33 +338,49 @@ nav a.active {
     right: 1em;
 }
 
+nav a {
+    display: flex;
+    align-items: center;
+    column-gap: .25em;
+    padding-bottom: 0.5em;
+    font-family: Trickster4;
+    font: 1.875em;
+    font-weight: 600;
+    letter-spacing: -0.9px;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--color-text);;
+    text-transform:none;
+}
+
+body.scroll-lock{
+    overflow:hidden;
+}
+
+/* footer! */
+
 footer a{
     font-family: Trickster4;
     font-size: 0.688em;
-    font-weight: 400;
-   letter-spacing: 0.25em;
-   line-height: 1.25em;
-   text-size-adjust: 100%;
-   text-transform: uppercase;
-   margin-top: 1.5em;
-   margin-bottom: 1.5em;
-   text-align: center;
-}
-
-footer hr{
-    margin: 0%
+    font-weight: 150;
+    letter-spacing: 0.25em;
+    line-height: 1.25em;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    z-index: -500;
 }
 
 footer div {
     display: grid;
-    /* /* position: absolute; */
     justify-content: center;
     list-style-type: none;
     padding: 0;
     margin: 0;
     width: 100%;
     bottom: 6em;
-    inset:none;
+    inset:0;
     grid-auto-flow: column;
     margin-bottom:5em;
 }
@@ -432,13 +393,38 @@ footer div a svg{
     align-items: center;
 }
 
-footer div:nth-of-type(2) {
-    display: flex;
-    max-width: 50%;
+footer ul li{
+    border-bottom: solid 1px var(--border-color);
+    margin: 0%;
 }
 
-/* dingen om aan te passen:
-- z index van footer wanneer menu open is.
-- stipje in h3 met de links in de ul 
-- kan ik de h3 overslaan in mijn html2?
-- de nav moet niet onzichtbaarzijn maar een achtergrond kleur hebben, misschien alleen in mijn tweede pagina?*/
+footer div:last-of-type{
+    display: flex;
+    border-top: solid 1px var(--border-color);
+    margin: 0%;
+    padding-top: 5em;
+    width: 100%;
+}
+
+footer p{
+    font-family: Trickster4;
+    font-size: 0.688em;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 1.25em;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    padding-bottom: 5em;
+    align-items: start;
+    text-align: center;
+}
+
+footer>div{
+    padding-top: 5em;
+}
+
+footer>ul{
+    border-top: solid 1px var(--border-color);
+    margin-top: 8em;
+}
+
